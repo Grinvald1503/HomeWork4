@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1.");
-        byte age = 8;
+        byte age = 28;
         if (age >= 18) {
             System.out.println("Позравляем! Вы совершеннолетний!");
         }
-        if (age < 18) {
+        else {
             System.out.println("Вы ещё не достигли совершеннолетия, подождите немного");
         }
         System.out.println("Задача 2.");
