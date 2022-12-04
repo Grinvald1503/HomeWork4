@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1.");
-        byte age = 28;
+        byte age = 18;
         if (age >= 18) {
             System.out.println("Позравляем! Вы совершеннолетний!");
         }
@@ -13,12 +13,13 @@ public class Main {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
 
         }
-        if (age >= 18 && age < 24) {
+        else if (age >= 18) {
             System.out.println("Человек может отправляться в университет");
         }
-        if (age >= 7 && age < 18) {
+        else if (age >= 7) {
             System.out.println("Ребёнок ходит в школу");
         }
+
         System.out.println("Задача 3.");
         byte place = 102;
         byte seats = 60;
