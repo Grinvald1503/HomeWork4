@@ -58,6 +58,19 @@ public class Main {
         else if (age >= 14) {
             System.out.println("Ребёнок может кататься на аттракционе без сопровождения взрослого");
         }
+        System.out.println("Задача 3.3");
+        int one = 1;
+        int tho = 2;
+        int three = 3;
+        if (one > tho && one > three) {
+            System.out.println("наибольшее число " + one);
+        }
+        else if (tho > three) {
+            System.out.println("наибольшее число " + tho);
+        }
+        else {
+            System.out.println("наибольшее число " + three);
+        }
 
     }
 }
