@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1.");
-        byte age = 18;
+        byte age = 2;
         if (age >= 18) {
             System.out.println("Позравляем! Вы совершеннолетний!");
         }
@@ -48,5 +48,16 @@ public class Main {
          else if (age > 24) {
              System.out.println("Если возраст человека равен " + age + ", то ему пора ходить на работу");
          }
+        System.out.println("Задание 2.3");
+        if (age < 5) {
+            System.out.println("Ребёнок не может кататься на аттракционе");
+        }
+        else if (age >= 5 && age < 14) {
+            System.out.println("Ребёнок может кататься на аттракционе только в сопровождении взрослого");
+        }
+        else if (age >= 14) {
+            System.out.println("Ребёнок может кататься на аттракционе без сопровождения взрослого");
+        }
+
     }
 }
