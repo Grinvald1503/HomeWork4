@@ -23,15 +23,15 @@ public class Main {
         System.out.println("Задача 3.");
         byte place = 102;
         byte seats = 60;
-        int noPass = 15;
+        int noPass = 11;
         if (noPass <= seats) {
             System.out.println("Есть сидячие места!");
         }
-        if (noPass <= place && noPass > seats)
+        else if (noPass <= place)
         {
             System.out.println("Есть стоячие места");
         }
-        if (noPass > place)
+         else if (noPass > place)
         {
             System.out.println("Мест больше нет!");
         }
