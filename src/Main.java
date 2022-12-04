@@ -19,5 +19,20 @@ public class Main {
         if (age >= 7 && age < 18) {
             System.out.println("Ребёнок ходит в школу");
         }
+        System.out.println("Задача 3.");
+        byte place = 102;
+        byte seats = 60;
+        int noPass = 15;
+        if (noPass <= seats) {
+            System.out.println("Есть сидячие места!");
+        }
+        if (noPass <= place && noPass > seats)
+        {
+            System.out.println("Есть стоячие места");
+        }
+        if (noPass > place)
+        {
+            System.out.println("Мест больше нет!");
+        }
     }
 }
